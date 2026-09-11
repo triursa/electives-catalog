@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Browse a catalog of self-study college-level syllabi. Download course materials, reading lists, and weekly schedules." />
+    <meta name="referrer" content="no-referrer" />
+    <title>Electives · Course Catalog</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a href="#" class="logo" onclick="navigate('');return false;">
+          <img src="icon.svg" alt="" width="32" height="32" />
+          <span>Electives</span>
+        </a>
+        <nav class="header-nav">
+          <a href="https://electives.kaleb.one" rel="noopener">Open App</a>
+          <a href="https://github.com/triursa/electives-catalog" rel="noopener">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="app">
+      <div class="loading">Loading catalog…</div>
+    </main>
+
+    <footer class="site-footer">
+      <p>Self-study syllabi by <a href="https://kaleb.one" rel="noopener">Kaleb</a>. All course materials are free to download and use. <a href="https://electives.kaleb.one" rel="noopener">Open the full learning app</a> for progress tracking.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
