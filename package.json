@@ -1,0 +1,12 @@
+{
+  "name": "electives-catalog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "render:syllabi": "node scripts/render-syllabi.mjs"
+  },
+  "devDependencies": {
+    "marked": "17.0.5"
+  }
+}

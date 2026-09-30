@@ -18,7 +18,7 @@ This is an independent study plan. It does not award academic credit or a creden
 
 ## Your workspace
 
-Read task instructions and track your progress in Electives. Write assignments in Google Docs, Word, Obsidian, or another workspace you choose. The app stores your document links, status, completion dates, and time entries; it has no assignment editor. Create the suggested folders from the course workspace page and connect your course folder and learning journal.
+Keep your own copy of this syllabus. Write assignments in Google Docs, Word, paper, or another workspace you choose. Create the suggested folders below if useful. Track your reading and completed work in a system you control.
 
 Suggested root: `Self Learning/Courses/PHIL 101 - Introduction to Philosophy - YYYY-MM/`
 
@@ -35,16 +35,16 @@ Suggested root: `Self Learning/Courses/PHIL 101 - Introduction to Philosophy - Y
 05 Final Paper/Working Draft
 05 Final Paper/Feedback and Revision Notes
 06 Reflection and Progress/Learning Journal
-06 Reflection and Progress/Progress Exports
+06 Reflection and Progress/Course Archive
 ```
 
-Each task supplies a folder, document name, output, and self-review checklist. Keep revisions in the same working document, save feedback alongside it, and retain a final snapshot when useful. Export Electives progress to `06 Reflection and Progress/Progress Exports` regularly and before changing browsers or devices. Your external documents do not back up your Electives progress automatically.
+Each task names an output and often includes a self-review checklist. Keep revisions together, save feedback alongside your work, and preserve a final snapshot when useful. Use a learning journal or simple index to record what you completed; this syllabus does not track progress for you.
 
 ## How to study
 
 Read once for the question and argument, then return to difficult passages. Primary-reading task estimates include an initial close reading; the separate consolidation task is for rereading, argument maps, and notes. Readings and lecture tasks have distinct outputs. Use a short study session when helpful and record time honestly; a timer is a planning aid, not proof of learning.
 
-At the end of each week, recall one argument without your notes, compare it with the source, and correct it. Record a changed belief or uncertainty in your external learning journal. The study guide includes original argument exercises, model reasoning, and a self-review rubric. Open it from an exercise task.
+At the end of each week, recall one argument without your notes, compare it with the source, and correct it. Record a changed belief or uncertainty in your external learning journal. The companion study guide includes original argument exercises, model reasoning, and a self-review rubric.
 
 ## Assessments and feedback
 

@@ -20,7 +20,7 @@ This is an independent study plan. It does not award academic credit or a creden
 
 ## Your workspace
 
-Read task instructions and track your progress in Electives. Write assignments in Google Docs, Word, Obsidian, or another workspace you choose. The app stores your document links, status, completion dates, and time entries; it has no assignment editor. Create the suggested folders from the course workspace page and connect your course folder and learning journal.
+Keep your own copy of this syllabus. Write assignments in Google Docs, Word, paper, or another workspace you choose. Create the suggested folders below if useful. Track your reading and completed work in a system you control.
 
 Suggested root: `Self Learning/Courses/HUMN 201 - Folklore, Mythology, and Comparative Mythology - YYYY-MM/`
 
@@ -36,10 +36,10 @@ Suggested root: `Self Learning/Courses/HUMN 201 - Folklore, Mythology, and Compa
 04 Final Paper/Working Draft
 04 Final Paper/Feedback and Revision Notes
 05 Reflection and Progress/Learning Journal
-05 Reflection and Progress/Progress Exports
+05 Reflection and Progress/Course Archive
 ```
 
-Each task supplies a folder, document name, output, and self-review checklist. Keep revisions in the same working document, save feedback alongside it, and retain a final snapshot when useful. Export Electives progress to `06 Reflection and Progress/Progress Exports` regularly and before changing browsers or devices. Your external documents do not back up your Electives progress automatically.
+Each task names an output and often includes a self-review checklist. Keep revisions together, save feedback alongside your work, and preserve a final snapshot when useful. Use a learning journal or simple index to record what you completed; this syllabus does not track progress for you.
 
 ## Assessments and feedback
 
@@ -783,15 +783,15 @@ Save to: `05 Reflection and Progress/Learning Journal/W15 - Course synthesis`
 
 Check before completion: Is one theoretical framework chosen and justified? Is the comparative method's unique contribution identified? Are at least two limits or dangers of comparison named? Is the essay reflective rather than a summary?
 
-**Learning journal: Review and export** — Assignment, 2 h
+**Learning journal: Review and archive** — Assignment, 2 h
 
-Review your reading notes, reading responses, and essays from the entire course. Create a learning journal entry that lists: (1) the three myths or folktales that most changed your thinking, (2) two questions you still have about comparative mythology, (3) one area where you feel the course's theoretical apparatus was insufficient. Export your progress from the syllabi app.
+Review your reading notes, reading responses, and essays from the entire course. Create a learning journal entry that lists: (1) the three myths or folktales that most changed your thinking, (2) two questions you still have about comparative mythology, (3) one area where you feel the course's theoretical apparatus was insufficient. Compile an index of your completed work and save a final copy of your synthesis essay.
 
-Output: Learning journal entry with three lists and a progress export.
+Output: Learning journal entry with three lists and an index of completed work.
 
-Save to: `05 Reflection and Progress/Progress Exports/W15 - Learning journal and export`
+Save to: `05 Reflection and Progress/Course Archive/W15 - Learning journal and course archive`
 
-Check before completion: Are three specific myths/folktales listed? Are two open questions included? Is one theoretical gap identified? Has progress been exported from the app?
+Check before completion: Are three specific myths/folktales listed? Are two open questions included? Is one theoretical gap identified? Is the completed work indexed and saved?
 
 ## Optional reference library
 

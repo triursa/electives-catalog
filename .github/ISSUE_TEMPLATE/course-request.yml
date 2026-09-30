@@ -1,0 +1,58 @@
+name: Request a course
+description: Suggest a self-study course for the Electives catalog.
+title: "Course request: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for proposing a course. Issues are public. Please do not include private information. Requests guide the catalog but do not guarantee a course or delivery date.
+  - type: input
+    id: topic
+    attributes:
+      label: Course topic
+      description: Keep the scope specific enough for one course.
+      placeholder: "For example, Introduction to urban ecology"
+    validations:
+      required: true
+  - type: textarea
+    id: outcomes
+    attributes:
+      label: What would you like to learn or make?
+      description: Give two or three concrete outcomes.
+      placeholder: "After this course, I could..."
+    validations:
+      required: true
+  - type: input
+    id: schedule
+    attributes:
+      label: Time available
+      description: Suggest course length and hours per week.
+      placeholder: "8 weeks, about 4 hours per week"
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_access
+    attributes:
+      label: Resource access
+      description: What materials can the course require?
+      options:
+        - Free online resources only
+        - Library access is okay
+        - Some paid books or materials are okay
+        - No preference
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Useful sources or similar courses
+      description: Optional links to lectures, books, articles, or existing courses.
+    validations:
+      required: false
+  - type: textarea
+    id: context
+    attributes:
+      label: Why this course?
+      description: Optional context that helps shape the course. Keep personal details out of this public issue.
+    validations:
+      required: false

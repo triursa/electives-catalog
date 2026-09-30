@@ -21,7 +21,7 @@ This is an independent study plan. It does not award academic credit or a creden
 
 ## Your workspace
 
-Read task instructions and track your progress in Electives. Write assignments in Google Docs, Word, Obsidian, or another workspace you choose. The app stores your document links, status, completion dates, and time entries; it has no assignment editor. Create the suggested folders from the course workspace page and connect your course folder and learning journal.
+Keep your own copy of this syllabus. Write assignments in Google Docs, Word, paper, or another workspace you choose. Create the suggested folders below if useful. Track your reading and completed work in a system you control.
 
 Suggested root: `Self Learning/Courses/POLS 101 - American Civics, The Federal Government - YYYY-MM/`
 
@@ -37,10 +37,10 @@ Suggested root: `Self Learning/Courses/POLS 101 - American Civics, The Federal G
 05 Final Paper/Working Draft
 05 Final Paper/Feedback and Revision Notes
 06 Reflection and Progress/Learning Journal
-06 Reflection and Progress/Progress Exports
+06 Reflection and Progress/Course Archive
 ```
 
-Each task supplies a folder, document name, output, and self-review checklist. Keep revisions in the same working document, save feedback alongside it, and retain a final snapshot when useful. Export Electives progress to `06 Reflection and Progress/Progress Exports` regularly and before changing browsers or devices. Your external documents do not back up your Electives progress automatically.
+Each task names an output and often includes a self-review checklist. Keep revisions together, save feedback alongside your work, and preserve a final snapshot when useful. Use a learning journal or simple index to record what you completed; this syllabus does not track progress for you.
 
 ## Assessments and feedback
 
@@ -795,15 +795,15 @@ Save to: `06 Reflection and Progress/Learning Journal/W15 - Course reflection`
 
 Check before completion: Describe how your understanding of checks and balances evolved. Identify the most powerful branch with reasoning. Note the most surprising thing you learned. Suggest a next topic to study.
 
-**Export progress and save final work** — Assignment, 0.75–1 h
+**Compile course record and save final work** — Assignment, 0.75–1 h
 
-Export your Syllabi progress from the Settings page. Save the JSON file to your 06 Reflection and Progress/Progress Exports folder. Verify all task statuses are marked complete. Save a final copy of your final paper and reflection in your course folder.
+Make an index of your completed tasks and their files. Save it in your course archive. Review your work for gaps, then save a final copy of your paper and reflection in your course folder.
 
-Output: Exported progress JSON and verified completion record.
+Output: Course index and final copies of your paper and reflection.
 
-Save to: `06 Reflection and Progress/Progress Exports/W15 - Final progress export`
+Save to: `06 Reflection and Progress/Course Archive/W15 - Final course index`
 
-Check before completion: Export the progress JSON from Settings. Verify all tasks are marked complete. Save final paper and reflection in the course folder.
+Check before completion: Index completed tasks and files. Note any gaps. Save the final paper and reflection in the course folder.
 
 ## Optional reference library
 

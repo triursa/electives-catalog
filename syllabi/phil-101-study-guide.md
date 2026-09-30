@@ -1,6 +1,6 @@
 # Argument practice and writing guide
 
-Write in your own document workspace. Use Syllabi for the brief, resources, and a link back to your work.
+Write in your own document workspace. Use the PHIL 101 syllabus for the brief and resources, then keep a link or index to your work wherever you prefer.
 
 ## A repeatable reading method
 

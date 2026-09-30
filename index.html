@@ -1,39 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Browse a catalog of self-study college-level syllabi. Download course materials, reading lists, and weekly schedules." />
-    <meta name="referrer" content="no-referrer" />
-    <title>Electives · Course Catalog</title>
-    <link rel="icon" href="icon.svg" type="image/svg+xml" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <a href="#" class="logo" onclick="navigate('');return false;">
-          <img src="icon.svg" alt="" width="32" height="32" />
-          <span>Electives</span>
-        </a>
-        <nav class="header-nav">
-          <a href="https://electives.kaleb.one" rel="noopener">Open App</a>
-          <a href="https://github.com/triursa/electives-catalog" rel="noopener">GitHub</a>
-        </nav>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111923">
+  <meta name="description" content="Independent study courses you can copy into Google Drive or download. Browse the Electives catalog and request a new course.">
+  <meta name="referrer" content="no-referrer">
+  <title>Electives | Self-study course catalog</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="Electives home"><img src="icon.svg" alt="" width="32" height="32">Electives</a>
+      <nav aria-label="Main navigation">
+        <a href="./">Courses</a>
+        <a href="https://github.com/triursa/electives-catalog/issues/new?template=course-request.yml">Request a course</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section id="catalog-view" aria-labelledby="catalog-title">
+      <div class="hero">
+        <p class="eyebrow">Build your own education</p>
+        <h1 id="catalog-title">Choose a course.<br><span>Make it yours.</span></h1>
+        <p>College-style, independent study plans with readings, weekly work, and assignments. Copy a syllabus into Google Drive or download it and study on your terms.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#courses">Explore courses</a><a class="button button-secondary" href="https://github.com/triursa/electives-catalog/issues/new?template=course-request.yml">Request a course</a></div>
       </div>
-    </header>
-
-    <main id="app">
-      <div class="loading">Loading catalog…</div>
-    </main>
-
-    <footer class="site-footer">
-      <p>Self-study syllabi by <a href="https://kaleb.one" rel="noopener">Kaleb</a>. All course materials are free to download and use. <a href="https://electives.kaleb.one" rel="noopener">Open the full learning app</a> for progress tracking.</p>
-    </footer>
-
-    <script src="app.js"></script>
-  </body>
+      <div class="how-it-works" aria-label="How Electives works">
+        <div><span class="step">01</span><strong>Browse</strong><p>Find a subject and check its time and resource needs.</p></div>
+        <div><span class="step">02</span><strong>Copy or download</strong><p>Keep an editable Google Doc or a PDF or Word file.</p></div>
+        <div><span class="step">03</span><strong>Study your way</strong><p>Use the schedule and make your work in your own space.</p></div>
+      </div>
+      <section class="courses" id="courses" aria-labelledby="courses-title">
+        <div class="section-heading"><div><p class="eyebrow">The collection</p><h2 id="courses-title">Course catalog</h2></div><p id="result-count" aria-live="polite"></p></div>
+        <div class="controls">
+          <div><label for="search">Search courses</label><input id="search" type="search" placeholder="Try philosophy, economics, storytelling…" autocomplete="off"></div>
+          <div><label for="subject">Subject</label><select id="subject"><option value="">All subjects</option></select></div>
+        </div>
+        <div id="course-list" class="course-grid" aria-live="polite"><p>Loading courses…</p></div>
+      </section>
+    </section>
+    <article id="detail-view" class="detail" hidden></article>
+  </main>
+  <footer class="site-footer">
+    <div><strong>Electives</strong><p>Independent study plans. No academic credit or credential.</p></div>
+    <p>Inspired by <a href="https://parknotes.substack.com/p/how-to-create-your-own-university">ParkNotes' self-study course method</a>. <a href="https://github.com/triursa/electives-catalog">View the repository</a>.</p>
+  </footer>
+</body>
 </html>
