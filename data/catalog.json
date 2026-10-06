@@ -20629,9 +20629,9 @@
     "subject": "Religion / Religious Studies",
     "level": "Intermediate",
     "weeks": 15,
-    "hoursPerWeek": 8.4,
-    "totalHours": 126.1,
-    "description": "A 15-week intermediate course on comparative religion structured around the major works of Karen Armstrong, one of the world's foremost scholars of religion. Beginning with her memoir The Spiral Staircase and her Short History of Myth, the course moves through her comparative histories of the monotheistic traditions (A History of God, Islam, Holy War), her Axial Age study (The Great Transformation) and biography of the Buddha, her analyses of modernity and violence (The Battle for God, Fields of Blood), and her reflections on scripture, compassion, and nature (The Lost Art of Scripture, The Case for God, Twelve Steps to a Compassionate Life, Sacred Nature). Students write two comparative essays and a final research paper.",
+    "hoursPerWeek": 9.3,
+    "totalHours": 139.7,
+    "description": "A guided 15-week workbook for studying comparative religion through Karen Armstrong. Includes a start-here guide, 48 sequenced activities, evidence and comparison worksheets, 12 reading responses, two comparative essays, a staged research paper, and shared self-review or optional AI-review criteria with informal numeric scores. Books require borrowing or purchase; no academic grades or credential.",
     "objectives": [
       "Trace Karen Armstrong's biographical journey and explain how her personal experience shapes her comparative method",
       "Define and apply the distinction between mythos and logos as Armstrong frames it",
@@ -20643,19 +20643,19 @@
       "Articulate Armstrong's vision of compassion as the essence of religion and assess it critically",
       "Synthesize Armstrong's major themes into a coherent understanding of comparative religion as a discipline"
     ],
-    "studyGuide": "",
-    "sourceNotes": "",
+    "studyGuide": "Combined course guide and workbook in the existing course document.",
+    "sourceNotes": "Version 2: guided workbook pilot for issue #1. Corrected unsupported chapter ranges and free-access claim; uses bounded thematic selections, edition records, shared self/optional-AI review, and recalculated workload. Resource links establish source identity, not free full-text access. Library access and total cost remain learner-specific.",
     "file": "reli-301-comparative-religion-through-karen-armstrong.md",
-    "version": 1,
+    "version": 2,
     "resources": [
       {
         "label": "Karen Armstrong, The Spiral Staircase: My Climb Out of Darkness (2004)",
         "url": "https://www.penguinrandomhouse.com/books/4891/the-spiral-staircase-by-karen-armstrong/",
-        "note": "Armstrong's memoir: convent years, loss of faith, discovery of comparative religion"
+        "note": "Memoir of life after leaving the convent and the development of her religious understanding; publisher page/sample, not free full text."
       },
       {
         "label": "Karen Armstrong, A Short History of Myth (2005)",
-        "url": "https://groveatlantic.com/author/karen-armstrong/",
+        "url": "https://groveatlantic.com/book/a-short-history-of-myth/",
         "note": "Concise study of myth from Paleolithic to modernity. Canongate Myth series"
       },
       {
@@ -20695,12 +20695,12 @@
       },
       {
         "label": "Karen Armstrong, Fields of Blood: Religion and the History of Violence (2014)",
-        "url": "https://www.everand.com/book/769881503/Fields-of-Blood-Religion-and-the-History-of-Violence",
+        "url": "https://www.penguinrandomhouse.com/books/214544/fields-of-blood-by-karen-armstrong/",
         "note": "Religion and violence across 4,000 years of history"
       },
       {
         "label": "Karen Armstrong, The Lost Art of Scripture: Rescuing the Sacred Texts (2019)",
-        "url": "https://www.everand.com/book/769549046/The-Lost-Art-of-Scripture-Rescuing-the-Sacred-Texts",
+        "url": "https://www.penguinrandomhouse.com/books/549024/the-lost-art-of-scripture-by-karen-armstrong/",
         "note": "Scripture as performative, allegorical art rather than literal prescription"
       },
       {
@@ -20710,7 +20710,7 @@
       },
       {
         "label": "Karen Armstrong, Sacred Nature: Restoring Our Ancient Bond with the Natural World (2022)",
-        "url": "https://www.pangobooks.com/titles/sacred-nature",
+        "url": "https://www.penguinrandomhouse.com/books/671038/sacred-nature-by-karen-armstrong/",
         "note": "How the world's religions can help restore our relationship with nature"
       },
       {
@@ -20735,7 +20735,7 @@
       }
     ],
     "folderStructure": [
-      "00 Course Guide/Syllabus",
+      "00 Course Guide/Workbook",
       "00 Course Guide/Learning Goals and Study Plan",
       "00 Course Guide/Source and Lecture Index",
       "01 Reading Notes",
@@ -20754,20 +20754,20 @@
         "part": "Part I: Foundations",
         "topic": "Who is Karen Armstrong? The scholar's journey from convent to comparative religion",
         "plannedMinutes": {
-          "min": 400,
-          "max": 525
+          "min": 420,
+          "max": 565
         },
         "tasks": [
           {
             "id": "read-ss-part1",
             "type": "Reading",
-            "title": "The Spiral Staircase, chapters 1-9 (convent years through leaving the order)",
+            "title": "The Spiral Staircase: opening 60 pages of main text",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read Armstrong's account of entering the convent at 17, the seven years of monastic life, and her departure. Note three specific passages where she describes her experience of God, prayer, or faith. What does her convent experience reveal about the difference between religion as institution and religion as personal practice?",
+            "prompt": "Read the opening 60 pages of the main narrative, finishing the last paragraph. This memoir concerns Armstrong’s life after leaving the convent; do not substitute Through the Narrow Gate. Identify three passages about faith, institutions, or learning. Explain what each suggests about institutional religion and personal practice. Record your edition and exact start/end pages.",
             "resourceIds": [
               "armstrong-spiral-staircase"
             ],
@@ -20832,7 +20832,7 @@
               "min": 90,
               "max": 120
             },
-            "prompt": "In ~300 words, argue how Armstrong's experience as a former nun shapes her comparative approach. Does her loss of faith give her a unique perspective, or does it create a bias? Consider both possibilities and state your own view with one piece of textual evidence.",
+            "prompt": "In ~300 words, argue how Armstrong's experience as a former nun shapes her comparative approach. Does her changing relationship with faith give her a unique perspective, or does it create a bias? Consider both possibilities and state your own view with one piece of textual evidence.",
             "resourceIds": [
               "armstrong-spiral-staircase"
             ],
@@ -20872,42 +20872,42 @@
         "part": "Part I: Foundations",
         "topic": "What is myth? Mythos, logos, and the nature of sacred narrative",
         "plannedMinutes": {
-          "min": 405,
-          "max": 530
+          "min": 515,
+          "max": 720
         },
         "tasks": [
           {
             "id": "read-shm-full",
             "type": "Reading",
-            "title": "A Short History of Myth, complete (160 pp)",
+            "title": "A Short History of Myth: complete main text",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 320,
+              "max": 460
             },
-            "prompt": "Read the full book. Armstrong traces myth through four periods: Paleolithic, Neolithic, early civilizations, and the 'Great Western Transformation.' For each period, write one sentence summarizing what myth meant to people in that era. Pay special attention to her distinction between mythos and logos.",
+            "prompt": "Read the main text across several sessions. Make a one-sentence summary for each chapter in your edition, then define mythos and logos in your own words. Distinguish Armstrong’s interpretation from your evaluation.",
             "resourceIds": [
               "armstrong-short-history-myth"
             ],
-            "output": "Four summary sentences, one per period, plus a definition of mythos vs logos in your own words.",
+            "output": "One summary sentence per chapter, plus a definition of mythos vs logos in your own words.",
             "folder": "01 Reading Notes",
             "documentName": "W02 - Short History of Myth notes",
             "checklist": [
-              "Are all four periods represented?",
+              "Is every chapter in my edition represented?",
               "Is the mythos/logos distinction stated in the learner's own words?",
-              "Are the summaries concise (one sentence each)?"
+              "Are the chapter summaries concise (one sentence each)?"
             ]
           },
           {
             "id": "read-hog-intro",
             "type": "Reading",
-            "title": "A History of God, Introduction and Prologue",
+            "title": "A History of God: introduction",
             "required": true,
             "minutes": {
               "min": 60,
               "max": 80
             },
-            "prompt": "Read the introduction and prologue to A History of God. Armstrong lays out her method here. Identify three methodological choices she makes (e.g., which traditions she includes, how she defines God, what sources she prioritizes). How do these choices shape what the book can and cannot argue?",
+            "prompt": "Read the introduction in your edition. Identify three methodological choices, such as traditions included, definitions, or sources. Explain how each limits or enables the argument. Do not look for a separate prologue if your edition has none.",
             "resourceIds": [
               "armstrong-history-of-god"
             ],
@@ -20971,20 +20971,20 @@
         "part": "Part II: The Monotheistic Traditions",
         "topic": "The God of Abraham: Jewish origins of monotheism",
         "plannedMinutes": {
-          "min": 375,
-          "max": 480
+          "min": 395,
+          "max": 520
         },
         "tasks": [
           {
             "id": "read-hog-pt1",
             "type": "Reading",
-            "title": "A History of God, chapters 1-4 (God, Abraham, Moses, the prophets)",
+            "title": "A History of God: thematic selections on Israelite origins",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read Part I of A History of God. Armstrong traces how the Israelites transformed pagan traditions into monotheism. Create a timeline with 8-10 key moments from Abraham to the Babylonian exile. For each, note how the conception of God changed.",
+            "prompt": "Using the contents and index, read the opening discussion of the Israelites and the sections on Abraham, Moses, prophecy, and exile: 60–80 pages in total, finishing each selected section. Record the selected headings and pages before reading. Build an 8–10-entry timeline distinguishing traditional narrative, historical reconstruction, and uncertain dates. Explain changes in conceptions of God.",
             "resourceIds": [
               "armstrong-history-of-god"
             ],
@@ -21000,7 +21000,7 @@
           {
             "id": "read-hog-pt1-review",
             "type": "Assignment",
-            "title": "Weekly review: consolidate notes from HOG Part I",
+            "title": "Weekly review: consolidate the Israelite origins selections",
             "required": true,
             "minutes": {
               "min": 45,
@@ -21048,20 +21048,20 @@
         "part": "Part II: The Monotheistic Traditions",
         "topic": "Christianity and the transformation of God: from Jesus to the Reformation",
         "plannedMinutes": {
-          "min": 375,
-          "max": 480
+          "min": 395,
+          "max": 520
         },
         "tasks": [
           {
             "id": "read-hog-pt2",
             "type": "Reading",
-            "title": "A History of God, chapters 5-8 (Jesus, Paul, Trinity, medieval mysticism, Reformation)",
+            "title": "A History of God: thematic selections on Christianity",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read Part II. Armstrong shows how Christianity and later Islam refashioned 'the One God.' Choose three figures from this section (e.g., Paul, Augustine, Luther, a mystic). For each, write one paragraph on how they changed the conception of God and why.",
+            "prompt": "Use the contents and index to select 60–80 pages on Jesus, the Trinity, and mysticism, finishing the selected sections. Record headings and page ranges. Choose three figures actually discussed there and explain each person’s conception of God and historical context. Do not assume these themes occupy consecutive chapters.",
             "resourceIds": [
               "armstrong-history-of-god"
             ],
@@ -21083,7 +21083,7 @@
               "min": 45,
               "max": 60
             },
-            "prompt": "Review your notes from Part II. Write one paragraph on how the doctrine of the Trinity changed the relationship between God and the believer, and one paragraph on how medieval mysticism offered an alternative path to God. How do these two developments relate to each other?",
+            "prompt": "Review your notes from the Christianity selections. Write one paragraph on how the doctrine of the Trinity changed the relationship between God and the believer, and one paragraph on how medieval mysticism offered an alternative path to God. How do these two developments relate to each other?",
             "resourceIds": [
               "armstrong-history-of-god"
             ],
@@ -21125,20 +21125,20 @@
         "part": "Part II: The Monotheistic Traditions",
         "topic": "Islam and the One God: the third monotheistic tradition",
         "plannedMinutes": {
-          "min": 480,
-          "max": 630
+          "min": 500,
+          "max": 670
         },
         "tasks": [
           {
             "id": "read-hog-pt3",
             "type": "Reading",
-            "title": "A History of God, chapters 9-11 (Islam, God in the modern world, future of God)",
+            "title": "A History of God: thematic selections on modernity",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read Part III. Armstrong argues that all three monotheistic religions faced a crisis in the modern period. Identify one crisis per tradition (Judaism, Christianity, Islam) and one response each tradition developed. How does Armstrong's comparative method reveal patterns that a single-tradition history would miss?",
+            "prompt": "Read 50–70 pages from the later discussions of modernity and the future of God, selecting evidence about Judaism, Christianity, and Islam. Record headings and page ranges. Identify one historically specific crisis and response per tradition, then explain a pattern and a limit of Armstrong’s comparison.",
             "resourceIds": [
               "armstrong-history-of-god"
             ],
@@ -21154,22 +21154,22 @@
           {
             "id": "read-ish-pt1",
             "type": "Reading",
-            "title": "Islam: A Short History, chapters 1-4 (Muhammad, the Rashidun, the Umayyads, the Abbasids)",
+            "title": "Islam: A Short History: origins and early empire selections",
             "required": true,
             "minutes": {
               "min": 180,
               "max": 240
             },
-            "prompt": "Read the first half of Islam: A Short History. Armstrong argues that Islam was from the start a political as well as spiritual community. Trace the tension between these two dimensions through the first four caliphates. What does 'creating a just community' mean in Islamic terms, and how did each caliphate interpret it?",
+            "prompt": "Read 50–70 pages on Muhammad, the early community, and the development of caliphal rule; use the contents and index and record your ranges. Compare spiritual ideals and political institutions. Select three distinct periods or rulers actually discussed and explain how each understood a just community. Caliphal dynasties and the first four caliphs are different categories.",
             "resourceIds": [
               "armstrong-islam"
             ],
-            "output": "Notes tracing the political-spiritual tension through four caliphates.",
+            "output": "Notes comparing the political-spiritual tension across three named periods or rulers.",
             "folder": "01 Reading Notes",
             "documentName": "W05 - Islam Part I notes",
             "checklist": [
-              "Are all four caliphates (Rashidun, Umayyad, Abbasid, and one more) covered?",
-              "Is the political-spiritual tension traced in each?",
+              "Are three distinct periods or rulers from the selected passages compared?",
+              "Is the political-spiritual tension explained in each case?",
               "Is 'just community' defined in Islamic terms?"
             ]
           },
@@ -21202,20 +21202,20 @@
         "part": "Part II: The Monotheistic Traditions",
         "topic": "Islam in depth: from empire to modernity, and the monotheistic comparison",
         "plannedMinutes": {
-          "min": 420,
-          "max": 540
+          "min": 440,
+          "max": 580
         },
         "tasks": [
           {
             "id": "read-ish-pt2",
             "type": "Reading",
-            "title": "Islam: A Short History, chapters 5-7 (Mongols, the three Muslim empires, modernity)",
+            "title": "Islam: A Short History: later empire and modernity selections",
             "required": true,
             "minutes": {
-              "min": 180,
-              "max": 240
+              "min": 200,
+              "max": 280
             },
-            "prompt": "Read the second half of Islam. Armstrong traces Islam through the Mongol invasion, the three great empires (Ottoman, Safavid, Mughal), and into the modern period. How does the relationship between religion and state change across these eras? What does Armstrong identify as Islam's central modern challenge?",
+            "prompt": "Read 50–70 pages on later empires and modernity. Locate the Ottoman, Safavid, and Mughal discussions using the index and record ranges. Compare changes in religion–state relations and identify a modern challenge Armstrong describes. Support each comparison with a passage; do not assume a seven-chapter structure.",
             "resourceIds": [
               "armstrong-islam"
             ],
@@ -21223,7 +21223,7 @@
             "folder": "01 Reading Notes",
             "documentName": "W06 - Islam Part II notes",
             "checklist": [
-              "Are the Mongol, imperial, and modern periods all covered?",
+              "Are later imperial and modern periods covered through specific passages?",
               "Is the religion-state relationship traced across eras?",
               "Is the central modern challenge explicitly stated?"
             ]
@@ -21260,20 +21260,20 @@
         "part": "Part III: The Axial Age and Eastern Traditions",
         "topic": "The Great Transformation: the Axial Age and the birth of Chinese philosophy",
         "plannedMinutes": {
-          "min": 375,
-          "max": 480
+          "min": 395,
+          "max": 520
         },
         "tasks": [
           {
             "id": "read-gt-pt1",
             "type": "Reading",
-            "title": "The Great Transformation, chapters 1-4 (the Axial Age concept, ritual, China: Confucius and Laozi)",
+            "title": "The Great Transformation: introduction and China selections",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read Part I. Armstrong introduces the Axial Age (approx. 900-200 BCE) and focuses on China. Define the Axial Age in your own words. Then compare Confucius and Laozi: how do they each respond to the violence of their era? What does each consider the path to a good society?",
+            "prompt": "Read the introduction and 50–70 pages of China-related sections located through the contents and index. The book interweaves traditions chronologically. Record ranges; define Armstrong’s Axial Age framework, then compare Confucius and Laozi on violence and the good society. Identify uncertainty in chronology or attribution rather than treating all figures as securely dated.",
             "resourceIds": [
               "armstrong-great-transformation"
             ],
@@ -21338,20 +21338,20 @@
         "part": "Part III: The Axial Age and Eastern Traditions",
         "topic": "India and the Buddha: Hinduism, Buddhism, and the renouncer's path",
         "plannedMinutes": {
-          "min": 450,
-          "max": 590
+          "min": 470,
+          "max": 630
         },
         "tasks": [
           {
             "id": "read-gt-pt2",
             "type": "Reading",
-            "title": "The Great Transformation, chapters 5-7 (India: the Upanishads, the Buddha, the renouncers)",
+            "title": "The Great Transformation: India selections",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read Part II. Armstrong traces how Indian thinkers developed the concept of Brahman and how the Buddha radicalized the renouncer tradition. Identify three key ideas from the Upanishads and show how the Buddha accepted, modified, or rejected each one.",
+            "prompt": "Read 60–80 pages of India-related sections on the Upanishads, renunciation, and the Buddha, using the index and recording exact ranges. Identify three ideas discussed in those passages. For each, explain whether Armstrong presents the Buddha as accepting, changing, or rejecting it, with evidence. Avoid treating Indian traditions as one uniform doctrine.",
             "resourceIds": [
               "armstrong-great-transformation"
             ],
@@ -21367,13 +21367,13 @@
           {
             "id": "read-buddha-sel",
             "type": "Reading",
-            "title": "Buddha, chapters 1-6 (renunciation through enlightenment and early teaching)",
+            "title": "Buddha: introduction and chapters 1–3",
             "required": true,
             "minutes": {
               "min": 150,
               "max": 200
             },
-            "prompt": "Read the first two-thirds of Buddha. Armstrong presents the Buddha as a human figure responding to a spiritual crisis, not as a divine being. What evidence does she use to reconstruct the historical Buddha, and what does she acknowledge we cannot know? Note two points where she distinguishes history from legend.",
+            "prompt": "Read the introduction and Renunciation, Quest, and Enlightenment (chapters 1–3 in the Penguin edition). Record edition and pages. Explain how Armstrong reconstructs Gotama’s life and separates historical inference from legend. Find two passages that reveal limits of the evidence.",
             "resourceIds": [
               "armstrong-buddha"
             ],
@@ -21416,20 +21416,20 @@
         "part": "Part III: The Axial Age and Eastern Traditions",
         "topic": "Greece, Israel, and the Axial Age legacy: rationalism, prophecy, and the synthesis",
         "plannedMinutes": {
-          "min": 540,
-          "max": 690
+          "min": 560,
+          "max": 730
         },
         "tasks": [
           {
             "id": "read-gt-pt3",
             "type": "Reading",
-            "title": "The Great Transformation, chapters 8-11 (Greece: Socrates and Plato, Israel: the prophets, the legacy of the Axial Age)",
+            "title": "The Great Transformation: Greece, Israel, and concluding selections",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read Part III. Armstrong pairs Greek rationalism with Israelite prophecy as twin Axial Age developments. How does Socrates' philosophical method compare to Jeremiah's prophetic critique? What does each share with the Axial Age spirit, and what makes them distinct?",
+            "prompt": "Read 60–80 pages on Greek philosophy, Israelite prophecy, and Armstrong’s concluding interpretation, using the index and recording ranges. Compare Socratic inquiry with prophetic criticism through passages that actually discuss them. Evaluate one similarity, one difference, and one limitation of placing them within a shared framework.",
             "resourceIds": [
               "armstrong-great-transformation"
             ],
@@ -21445,13 +21445,13 @@
           {
             "id": "read-buddha-fin",
             "type": "Reading",
-            "title": "Buddha, chapters 7-10 (the sangha, the later years, the legacy)",
+            "title": "Buddha: chapters 4–6",
             "required": true,
             "minutes": {
               "min": 90,
               "max": 120
             },
-            "prompt": "Read the final third of Buddha. Armstrong covers the Buddha's establishment of the sangha and his later years. How does the sangha function as a social innovation? What does Armstrong see as the Buddha's lasting contribution to the Axial Age?",
+            "prompt": "Read Dhamma, Mission, and Parinibbana (chapters 4–6 in the Penguin edition). Record edition and pages. Explain the sangha as a social institution and Armstrong’s assessment of the Buddha’s contribution, using specific passages. Other editions may differ; match these chapter titles rather than searching for nonexistent chapters 7–10.",
             "resourceIds": [
               "armstrong-buddha"
             ],
@@ -21495,20 +21495,20 @@
         "part": "Part IV: Modernity, Fundamentalism, and Violence",
         "topic": "The Battle for God: fundamentalism as a modern phenomenon",
         "plannedMinutes": {
-          "min": 510,
-          "max": 660
+          "min": 530,
+          "max": 700
         },
         "tasks": [
           {
             "id": "read-bfg-pt1",
             "type": "Reading",
-            "title": "The Battle for God, Part I (the premodern worldview and the shock of modernity)",
+            "title": "The Battle for God: premodernity and early modernity selections",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read Part I of The Battle for God. Armstrong argues that fundamentalism is not a throwback to the past but a distinctly modern response to modernity. Summarize her account of how the premodern worldview differed from the modern one. Then identify the specific 'shock' that triggered fundamentalist movements in one tradition (Judaism, Christianity, or Islam).",
+            "prompt": "Read 60–80 pages from the opening historical discussion of premodernity and the transition to modernity. Record headings and ranges. Reconstruct Armstrong’s distinction between worldviews, then identify a specific change affecting one tradition. Separate the historical event from her causal interpretation.",
             "resourceIds": [
               "armstrong-battle-for-god"
             ],
@@ -21524,22 +21524,22 @@
           {
             "id": "read-bfg-pt2",
             "type": "Reading",
-            "title": "The Battle for God, Parts II-IV (Jewish, Christian, and Muslim fundamentalism compared)",
+            "title": "The Battle for God: three fundamentalist movements",
             "required": true,
             "minutes": {
               "min": 210,
               "max": 270
             },
-            "prompt": "Read the remaining parts. Armstrong traces fundamentalism in all three traditions. For each, identify: (1) when the movement began, (2) what it feared most, (3) what it attempted to achieve. Create a three-column comparison table.",
+            "prompt": "Read 60–80 pages of later sections covering Jewish, Christian, and Muslim movements. Select one named movement per tradition, record ranges, and make a comparison with origin period, perceived threat, stated aim, and evidence. Avoid attributing a single origin or fear to an entire religion.",
             "resourceIds": [
               "armstrong-battle-for-god"
             ],
-            "output": "Three-column comparison table (Jewish, Christian, Muslim) with origin date, core fear, and goal.",
+            "output": "Comparison of three named movements (Jewish, Christian, Muslim), with origin period, perceived threat, stated aim, and evidence.",
             "folder": "01 Reading Notes",
             "documentName": "W10 - BFG comparison table",
             "checklist": [
-              "Does the table have all three traditions?",
-              "Are all three elements (origin, fear, goal) present for each?",
+              "Does the comparison contain one named movement from each of the three traditions?",
+              "Are origin period, perceived threat, stated aim, and evidence present for each named movement?",
               "Is each entry specific, not generic?"
             ]
           },
@@ -21572,30 +21572,30 @@
         "part": "Part IV: Modernity, Fundamentalism, and Violence",
         "topic": "Holy War: the Crusades and their lasting impact",
         "plannedMinutes": {
-          "min": 390,
-          "max": 510
+          "min": 410,
+          "max": 550
         },
         "tasks": [
           {
             "id": "read-hw-sel",
             "type": "Reading",
-            "title": "Holy War, selections (the Crusades and their legacy for Jewish-Christian-Muslim relations)",
+            "title": "Holy War: Crusades and aftermath selections",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read the central chapters of Holy War on the Crusades and their aftermath. Armstrong argues that the Crusades created a lasting trauma in all three Abrahamic traditions. Trace this trauma: what did each tradition take away from the Crusader experience, and how does Armstrong see it operating today?",
+            "prompt": "Use the contents and index to select 60–80 pages on the Crusades, Jerusalem, and their aftermath, including evidence concerning Jewish, Christian, and Muslim communities. Record headings and ranges. Trace Armstrong’s account of historical memory and its later uses. Distinguish the book’s publication-era present from today; do not extend it to current events without additional sources.",
             "resourceIds": [
               "armstrong-holy-war"
             ],
-            "output": "Notes tracing Crusader trauma through all three traditions, with connections to the present.",
+            "output": "Notes on Crusader memory in all three traditions, with connections to the book’s publication-era present.",
             "folder": "01 Reading Notes",
             "documentName": "W11 - Holy War trauma notes",
             "checklist": [
               "Are all three traditions' experiences of the Crusades covered?",
-              "Is the connection to the present made explicit?",
-              "Is the concept of 'trauma' used as Armstrong frames it?"
+              "Is the connection to the book’s publication-era present made explicit?",
+              "Are historical events distinguished from Armstrong’s interpretation of later memory?"
             ]
           },
           {
@@ -21649,20 +21649,20 @@
         "part": "Part IV: Modernity, Fundamentalism, and Violence",
         "topic": "Fields of Blood: religion and the history of violence",
         "plannedMinutes": {
-          "min": 420,
-          "max": 540
+          "min": 440,
+          "max": 580
         },
         "tasks": [
           {
             "id": "read-fob-sel",
             "type": "Reading",
-            "title": "Fields of Blood, selections (Parts I-III: the agrarian state, the peaceful origins of major religions, the modern secular state)",
+            "title": "Fields of Blood: violence and state formation selections",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read the key chapters of Fields of Blood. Armstrong argues that religion is not the primary cause of violence and that the secular state has been more destructive than any religious order. Identify three pieces of evidence she uses for this argument and one counterargument you can think of.",
+            "prompt": "Read the introduction and 60–80 pages spanning an agrarian-state example and a modern-state example; locate them through the contents and index and record ranges. Reconstruct Armstrong’s account of how political, economic, and religious forces interact. Record three pieces of evidence and one objection. Test whether the strong comparative claim in the response brief is actually warranted by the passages you read.",
             "resourceIds": [
               "armstrong-fields-of-blood"
             ],
@@ -21684,7 +21684,7 @@
               "min": 90,
               "max": 120
             },
-            "prompt": "In ~300 words, evaluate Armstrong's claim that the modern secular state has produced more violence than religion ever did. Is this a fair historical comparison? What might a critic object? Consider whether comparing premodern and modern violence is methodologically sound.",
+            "prompt": "In ~300 words, evaluate the interpretation that the modern secular state has produced more violence than religion ever did. Is this a fair historical comparison? What might a critic object? Consider whether comparing premodern and modern violence is methodologically sound. First test this attribution against your passages; distinguish Armstrong’s wording from a stronger claim imposed by a reader.",
             "resourceIds": [
               "armstrong-fields-of-blood"
             ],
@@ -21692,7 +21692,7 @@
             "folder": "02 Reading Responses",
             "documentName": "W12 - Response 10",
             "checklist": [
-              "Is Armstrong's claim accurately represented?",
+              "Is the interpretation accurately attributed and tested against the assigned passages?",
               "Is at least one specific objection raised?",
               "Is the methodological question of comparison addressed?"
             ]
@@ -21724,20 +21724,20 @@
         "part": "Part V: Scripture, Compassion, and the Sacred",
         "topic": "The Lost Art of Scripture: reading sacred texts as they were meant to be read",
         "plannedMinutes": {
-          "min": 480,
-          "max": 630
+          "min": 500,
+          "max": 670
         },
         "tasks": [
           {
             "id": "read-las-sel",
             "type": "Reading",
-            "title": "The Lost Art of Scripture, selections (Parts I-III: cosmos and society, mythos, logos)",
+            "title": "The Lost Art of Scripture: interpretation and practice selections",
             "required": true,
             "minutes": {
-              "min": 240,
-              "max": 300
+              "min": 260,
+              "max": 340
             },
-            "prompt": "Read the key sections of The Lost Art of Scripture. Armstrong argues that scripture was historically a performative, allegorical art, not a literal rulebook. Trace this argument: how did scripture function before modernity, and what changed? Identify one example from each of two traditions (e.g., Jewish midrash, Christian allegory, Islamic recitation, Hindu recitation).",
+            "prompt": "Read the introduction and 60–80 pages covering scriptural practices in two traditions and a discussion of modern interpretation. Use contents and index; record exact ranges. Explain how performance, interpretation, or ritual functions in each example. Compare with a modern reading practice without assuming every premodern reading was allegorical.",
             "resourceIds": [
               "armstrong-lost-art-scripture"
             ],
@@ -21800,20 +21800,20 @@
         "part": "Part V: Scripture, Compassion, and the Sacred",
         "topic": "The Case for God and Twelve Steps to a Compassionate Life: what religion really means",
         "plannedMinutes": {
-          "min": 510,
-          "max": 680
+          "min": 740,
+          "max": 1000
         },
         "tasks": [
           {
             "id": "read-cfg-sel",
             "type": "Reading",
-            "title": "The Case for God, selections (Part I: the unknown God, mythos and logos revisited; Part II: the modern crisis)",
+            "title": "The Case for God: practice and modernity selections",
             "required": true,
             "minutes": {
-              "min": 210,
-              "max": 270
+              "min": 230,
+              "max": 310
             },
-            "prompt": "Read the key chapters of The Case for God. Armstrong argues that religion is a practical discipline, not a set of propositions to believe. Identify three spiritual practices she describes (e.g., silence, ritual, meditation, compassionate action). For each, explain how it functions as a practice rather than a belief.",
+            "prompt": "Read the introduction and 50–70 pages covering religious practice and modern debates about belief. Use contents and index; record ranges. Identify three practices actually discussed and explain their function with evidence. Test the scope of Armstrong’s distinction between practical discipline and propositional belief.",
             "resourceIds": [
               "armstrong-case-for-god"
             ],
@@ -21829,13 +21829,13 @@
           {
             "id": "read-ts-full",
             "type": "Reading",
-            "title": "Twelve Steps to a Compassionate Life, complete (220 pp)",
+            "title": "Twelve Steps to a Compassionate Life: complete main text",
             "required": true,
             "minutes": {
-              "min": 150,
-              "max": 200
+              "min": 360,
+              "max": 480
             },
-            "prompt": "Read the full book. Armstrong translates the Charter for Compassion into a practical twelve-step program. Choose three of her twelve steps and explain how they would look if you practiced them for one week. Be specific about what you would do.",
+            "prompt": "Read the main text in several sessions. Choose three named steps and describe a realistic one-week practice for each. Studying a practice does not require adopting religious beliefs or disclosing private experiences. Record the edition and section references.",
             "resourceIds": [
               "armstrong-twelve-steps"
             ],
@@ -21898,20 +21898,20 @@
         "part": "Part V: Scripture, Compassion, and the Sacred",
         "topic": "Sacred Nature and course synthesis: Armstrong's vision of religion's future",
         "plannedMinutes": {
-          "min": 450,
-          "max": 590
+          "min": 470,
+          "max": 630
         },
         "tasks": [
           {
             "id": "read-sn-sel",
             "type": "Reading",
-            "title": "Sacred Nature, selections (how world religions can restore our bond with nature)",
+            "title": "Sacred Nature: introduction and two tradition-specific selections",
             "required": true,
             "minutes": {
-              "min": 150,
-              "max": 200
+              "min": 170,
+              "max": 240
             },
-            "prompt": "Read the key sections of Sacred Nature. Armstrong argues that recovering a sense of the sacred in nature is both an ecological and a religious imperative. Identify two specific practices or ideas from different traditions that she proposes. How do they connect to the themes of compassion and the Axial Age you have studied?",
+            "prompt": "Read the introduction and 40–60 pages on two different traditions’ relationships with nature. Use contents and index, recording headings and ranges. Identify two practices or ideas, connect them to compassion or the Axial Age, and raise one question about their ecological application. Additional reading is optional.",
             "resourceIds": [
               "armstrong-sacred-nature"
             ],
@@ -21927,13 +21927,13 @@
           {
             "id": "final-paper",
             "type": "Assignment",
-            "title": "Final paper: final submission (3,000 words)",
+            "title": "Final paper: final portfolio version (3,000 words)",
             "required": true,
             "minutes": {
               "min": 240,
               "max": 300
             },
-            "prompt": "Submit the final version of your research paper (~3,000 words). Your paper should engage with at least two of Armstrong's books and at least one outside source. It should have a clear thesis, structured argument, specific evidence, and proper citations. The paper should demonstrate what you have learned about comparative religion through Armstrong's work.",
+            "prompt": "Save the final version of your research paper (~3,000 words). Your paper should engage with at least two of Armstrong's books and at least one outside source. It should have a clear thesis, structured argument, specific evidence, and proper citations. The paper should demonstrate what you have learned about comparative religion through Armstrong's work. There is no submission portal or assigned grader. Use the review appendix, decide whether your paper is ready, and archive it with a revision note.",
             "resourceIds": [],
             "output": "Final 3,000-word research paper with citations.",
             "folder": "04 Final Paper/Working Draft",
@@ -21970,10 +21970,10 @@
       }
     ],
     "plannedMinutes": {
-      "min": 6580,
-      "max": 8555
+      "min": 7180,
+      "max": 9585
     },
-    "accessClassification": "free"
+    "accessClassification": "paid-required"
   },
   {
     "id": "humn-250-storytelling-across-media",
